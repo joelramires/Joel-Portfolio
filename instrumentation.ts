@@ -17,6 +17,27 @@ export function onRequestError(
     errorSource?: string;
   }
 ) {
-    captureRequestError(error, request as unknown as RequestInfo, errorContext);
-      
+  const reqInfo =
+    typeof request === "string"
+      ? {
+          path: request,
+          method: "GET",
+          headers: {}, // required
+        }
+      : {
+          path: request.url ?? "",
+          method: request.method ?? "GET",
+          headers: {},
+          body: "", // optional
+        };
+
+
+  const fullErrorContext = {
+    ...errorContext,
+    routerKind: "unknown", 
+    routePath: "/", 
+    routeType: "error", 
+  };
+
+  captureRequestError(error, reqInfo, fullErrorContext);
 }

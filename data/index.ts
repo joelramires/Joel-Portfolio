@@ -76,7 +76,7 @@ export const projects = [
     des: "The player controls Superdog, a heroic dog with the ability to jump, fly, and defeat enemies.",
     img: "/p5.png",
     iconLists: ["/js.svg"],
-    link: "/https://joelramires.github.io/DogDays",
+    link: "https://joelramires.github.io/DogDays/",
   },
   {
     id: 2,
@@ -84,7 +84,7 @@ export const projects = [
     des: "Ask anything and get fast, accurate answers without searching through multiple sources. Connect everywhere and improve everyday with an AI chatbot that understands you and helps you explore more.",
     img: "/p7.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
-    link: "/ui.yoom.com",
+    link: "https://brianwaves.com/",
   },
   {
     id: 3,
@@ -92,7 +92,7 @@ export const projects = [
     des: "Step into the Metagame Layer, an ever-evolving universe where games, apps, and communities converge into a connected, rewarding experience overlaying your world. From cross-platform adventures and NFT collections to AI companions and gamified social hubs, it’s a new dimension where play, progress, and community collide.",
     img: "/p8.5.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
-    link: "/ui.aiimg.com",
+    link: "https://zentry-space.com/",
   },
   {
     id: 4,
@@ -100,7 +100,15 @@ export const projects = [
     des: "Discover the perfect recipe with Recipe Finder, where your culinary cravings meet personalized suggestions. From searching recipes to saving your favorites, each dish comes with instructional videos, ingredients, and step-by-step preparation guides for an effortless cooking experience.",
     img: "/p6.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
-    link: "/ui.apple.com",
+    link: "https://recipesfind3r.com/",
+  },
+  {
+    id: 5,
+    title: "Lotus Yoga - Calm yoga, clear class schedules.",
+    des: "At Lotus Yoga, we create a calm, welcoming space where beginners and seasoned practitioners can breathe, move, and feel at ease. Our experienced teachers guide you through thoughtful classes—from gentle flows to Vinyasa, Bikram, and Ashtanga—focused on strength, flexibility, and stress relief. The studio’s warm, minimalist design keeps your mind clear and your practice front and center, with flexible schedules and simple booking so you can show up, roll out your mat, and feel better.",
+    img: "/P9.png",
+    iconLists: [],
+    link: "https://joelramires.github.io/Lotus_Yoga/",
   },
 ];
 

@@ -5,6 +5,9 @@ import dynamic from "next/dynamic";
 const FloatingNav = dynamic(() => import("@/components/ui/FloatingNavbar"), {
   ssr: false,
 });
+const GridGlobe = dynamic(() => import("@/components/ui/GridGlobe"), {
+  ssr: false,
+});
 
 import { navItems } from "@/data";
 import Hero from "@/components/Hero";
@@ -14,6 +17,8 @@ import Clients from "@/components/Clients";
 import Approach from "@/components/Approach";
 import RecentProjects from "@/components/RecentProjects";
 
+
+
 const Home = () => {
   return (
     <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
@@ -21,6 +26,7 @@ const Home = () => {
         <FloatingNav navItems={navItems} />
         <Hero />
         <Grid />
+        <GridGlobe />
         <RecentProjects />
         <Clients />
         <Approach />
