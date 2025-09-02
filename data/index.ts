@@ -106,7 +106,7 @@ export const projects = [
     id: 5,
     title: "Lotus Yoga - Calm yoga, clear class schedules.",
     des: "At Lotus Yoga, we create a calm, welcoming space where beginners and seasoned practitioners can breathe, move, and feel at ease. Our experienced teachers guide you through thoughtful classes—from gentle flows to Vinyasa, Bikram, and Ashtanga—focused on strength, flexibility, and stress relief. The studio’s warm, minimalist design keeps your mind clear and your practice front and center, with flexible schedules and simple booking so you can show up, roll out your mat, and feel better.",
-    img: "/p9.png",
+    img: "/p9.5.png",
     iconLists: [],
     link: "https://joelramires.github.io/Lotus_Yoga/",
   },
